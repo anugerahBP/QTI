@@ -32,7 +32,7 @@ def scrape_pikiran_rakyat_selenium_firefox():
         # Mengambil judul dan isi berita terpopuler
         for article in driver.find_elements(By.XPATH, "//article"):
             title_element = article.find_element(By.XPATH, ".//h3")
-            description_element = article.find_element(By.XPATH, ".//div[@class='p']")
+            description_element = article.find_element(By.XPATH, ".//div[@class='description']")
 
             title = title_element.text.strip()
             content = description_element.text.strip()
