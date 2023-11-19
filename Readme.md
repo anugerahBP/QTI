@@ -1,4 +1,4 @@
-Kekurangan Program dan Solusi:
+Kekurangan Program dan Solusi Assessment data engineer_1:
 
 1. **Keterbatasan Akses:**
    - **Kendala:** Program web scraping sangat tergantung pada struktur HTML dan CSS dari situs web yang diambil. Jika situs web tersebut mengalami perubahan struktur, program dapat mengalami kegagalan.
@@ -29,3 +29,7 @@ Kekurangan Program dan Solusi:
    - **Solusi:** Pertimbangkan untuk membuat program yang dapat mengidentifikasi struktur HTML secara otomatis atau memanfaatkan teknik machine learning untuk penyesuaian otomatis.
 
 Meskipun pemecahan masalah ini membantu mengatasi beberapa kekurangan, penting untuk diingat bahwa web scraping memiliki keterbatasan dan harus dilakukan dengan etika serta mengikuti kebijakan privasi dan hukum yang berlaku.
+
+
+Assessment Data Engineer_2:
+Susunan program yang dibuat adalah queri dan database mariadb(mysql) QTI-Employee.sql, lalu mengakses python jupyter notebook QTI_Projek.ipynb yang sudah tersimpan sintaks program menjalankan sql pada jupyter notebook.
